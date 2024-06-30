@@ -14,6 +14,7 @@ public class Gift {
     private String giftId;
     private String name;
     private String description;
+    private String price;
     @DBRef
     private String userId;
 }
